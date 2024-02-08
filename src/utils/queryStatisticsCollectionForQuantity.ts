@@ -16,7 +16,7 @@ async function queryStatisticsCollectionForQuantity<TIdentifier extends HKQuanti
     actualUnit,
     options,
     anchorDate.toISOString(),
-    intervalComponents
+    intervalComponents,
   )
 
   return rawResponse
